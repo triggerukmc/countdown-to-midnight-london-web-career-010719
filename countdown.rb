@@ -4,8 +4,17 @@ def countdown(x)
   first = x.to_i
   while first > 0
   puts "#{first} SECOND(S)!"
-  sleep 1
   first -= 1
+end
+return "HAPPY NEW YEAR!"
+end
+
+def countdown(x)
+  first = x.to_i
+  while first > 0
+  puts "#{first} SECOND(S)!"
+  first -= 1
+  sleep 1
 end
 return "HAPPY NEW YEAR!"
 end
